@@ -1,5 +1,5 @@
 {
-  "name": "projectnamewithnospacesorcaps",
+  "name": "neilscraftboilerplate",
   "version": "1.0.0",
   "description": "A Client Name",
   "main": "webpack.mix.js",
