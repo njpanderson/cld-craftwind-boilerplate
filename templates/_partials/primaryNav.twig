@@ -1,0 +1,20 @@
+{% set nodes = craft.navigation.nodes('primary').all() %}
+
+<ul class="hidden md:flex space-x-8 ml-8">
+	{% nav node in nodes %}
+		<li class="{% if node.classes | length %}{{ node.classes }}{% endif %}">
+			<a
+				href="{{ node.url }}"
+				class="{{ css.navLink }}{% if node.active %} border-sky-700{% endif %}"
+				{% if node.newWindow %}
+					target="_blank" rel="noopener"
+				{% endif %}
+				{% for attribute in node.customAttributes %}
+					{{ attribute.attribute }}="{{ attribute.value }}"
+				{% endfor %}
+			>
+				{{- node.title -}}
+			</a>
+		</li>
+	{% endnav %}
+</ul>

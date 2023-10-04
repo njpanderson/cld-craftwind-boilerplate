@@ -1,4 +1,4 @@
-dateModified: 1696452730
+dateModified: 1696453410
 email:
   fromEmail: $SYSTEM_EMAIL
   fromName: $SYSTEM_NAME
@@ -35,6 +35,7 @@ meta:
     7dacd005-9633-40b1-9d20-5b168dc1590e: 'Social links' # Social links
     7fc052f5-ca32-4ff6-aa15-69c9f63ac859: 'Body end scripts' # Body end scripts
     9ba80f98-3521-4d95-8103-833cc54f9074: 'Twitter card' # Twitter card
+    24d9ec37-2000-4846-a657-5a8ba941166c: Primary # Primary
     27fd5441-8230-4f21-8d4c-ae215e7076df: Boilerplate # Boilerplate
     49e4be6b-31e8-4637-970f-72b746d0dd07: 'OG title override' # OG title override
     64ddacfa-0b2f-4cbc-a78c-b249a5c4621d: Text # Text

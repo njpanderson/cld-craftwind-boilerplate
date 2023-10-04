@@ -1,5 +1,5 @@
 {% set css = {
-	navLink: 'uppercase group inline-flex items-center text-center font-semibold tracking-widest lg:leading-6 hover:text-gray-900 focus:text-gray-900 transition ease-in-out duration-150 focus:outline-none',
+	navLink: 'uppercase group p-1 border-2 border-transparent rounded inline-flex items-center text-center font-semibold tracking-widest lg:leading-6 hover:text-gray-900 focus:text-gray-900 transition ease-in-out duration-150 focus:outline-none',
 	navLinkOnLight: 'block uppercase text-base font-semibold tracking-widest leading-6',
 	breakoutLink: "!static content-[''] before:block before:absolute before:inset-0 before:cursor-pointer"
 } %}
@@ -122,10 +122,7 @@
 				<nav class="flex justify-between items-center">
 					<a class="flex" href="/"><img alt="" style="height:50px" src="/assets/img/no-image.svg"></a>
 
-					<ul class="hidden md:flex space-x-8 ml-8">
-						<li><a href="#" class="{{ css.navLink }}">Link</a></li>
-						<li><a href="#" class="{{ css.navLink }}">Another</a></li>
-					</ul>
+					{% include '_partials/primaryNav.twig' with { css } %}
 				</nav>
 			{% endblock %}
 		{% endembed %}
