@@ -6,6 +6,7 @@ instructions: null
 name: 'List entries from...'
 searchable: false
 settings:
+  columnType: string
   options:
     -
       __assoc__:
@@ -18,6 +19,17 @@ settings:
         -
           - default
           - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - News
+        -
+          - value
+          - news
+        -
+          - default
+          - ''
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Dropdown

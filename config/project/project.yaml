@@ -1,4 +1,4 @@
-dateModified: 1696448826
+dateModified: 1696452368
 email:
   fromEmail: $SYSTEM_EMAIL
   fromName: $SYSTEM_NAME
@@ -24,10 +24,12 @@ fs:
     url: /media/images
 meta:
   __names__:
+    0a9c2a20-cfaa-4b96-a46a-999c4fd3e961: Summary # Summary
     0bed22d4-f57c-4df7-a891-4467df6fdcd7: 'Home pages' # Home pages
     2dcc0933-0db0-4d99-b21d-b7bcfa05c2e1: Globals # Globals
     3a55636c-f114-4ca1-84a3-f568f17a51b0: 'Browser title' # Browser title
     3abf1c16-bab7-4d4a-a7a7-7720e06c217f: 'Listing pages' # Listing pages
+    3f799ef3-b16b-4083-b9dd-b0392db90227: Default # Default
     4d75c350-59e2-4ecc-b469-bb97f6ff276d: 'Section background colour' # Section background colour
     5beb9697-853c-400d-825c-5dc6e8f9707e: 'No index' # No index
     7dacd005-9633-40b1-9d20-5b168dc1590e: 'Social links' # Social links
@@ -55,6 +57,7 @@ meta:
     c073d458-3743-4e75-acc2-84b4e3337f8f: SEO # SEO
     d6de9704-4f2d-488c-b526-7edee9635399: Scripts # Scripts
     e525d53f-7298-43c3-8dca-edf8cfd1f8b2: Common # Common
+    e886784f-b6f0-4be1-82f9-57935c47845b: News # News
     ec768514-1ace-48d1-a39f-63b17f6e1fc6: 'Public Schema' # Public Schema
     ee12cfc1-e007-4254-bc36-f5ff21ea00bd: Body # Body
     f2d836d8-5576-4f7d-97a7-3cbe6aa415e7: 'Twitter username' # Twitter username

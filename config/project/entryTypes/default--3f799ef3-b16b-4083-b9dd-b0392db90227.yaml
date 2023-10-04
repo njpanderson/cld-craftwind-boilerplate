@@ -1,5 +1,5 @@
 fieldLayouts:
-  8e23bc6b-34dc-450a-99ce-044597b86fc4:
+  ee8af23d-8f12-4cd2-a0d0-bcb4fe52bbe1:
     tabs:
       -
         elementCondition: null
@@ -26,47 +26,59 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 2cab2678-0dbc-40f5-a57d-9551adc452f7
+            uid: 92e0f562-ef8f-4fc0-9412-5d27658f8d4c
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 56716528-cd41-42c1-894c-9b5ee770b2ea # List entries from...
+            fieldUid: 0a9c2a20-cfaa-4b96-a46a-999c4fd3e961 # Summary
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: fc38e852-2785-4efe-aa04-dca03001a0ed
+            uid: efb63ef0-225c-42f3-a0c1-047df094bcaf
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 661f0cbe-8667-4984-aea8-55239d2f6e8e # Body builder
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ccea6267-6943-4c96-abc7-17288ed54e52
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: be8e96b4-2e07-46f0-a6db-5c214032c5a6
+        uid: 40fc1601-6c0f-4057-925c-8861f71ef448
         userCondition: null
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: ac776189-eb45-4663-a943-42e6263a2928 # OG description
+            fieldUid: 93911dec-d597-4048-be70-3822341db5c8 # OG image
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: b76fd445-e9a1-4705-89e7-be84bc31294e
+            uid: bccc6be4-c2a1-4923-8f37-c543707162ee
             userCondition: null
             warning: null
             width: 100
         name: SEO
-        uid: b76a3d23-fb26-4baa-93b4-185f86502ba9
+        uid: a4162fc4-5e78-46a1-b2eb-0d4066afc222
         userCondition: null
-handle: listingPages
+handle: default
 hasTitleField: true
-name: 'Listing pages'
-section: 3abf1c16-bab7-4d4a-a7a7-7720e06c217f # Listing pages
+name: Default
+section: e886784f-b6f0-4be1-82f9-57935c47845b # News
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site

@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: news
+name: News
+propagationMethod: all
+siteSettings:
+  27fd5441-8230-4f21-8d4c-ae215e7076df: # Boilerplate
+    enabledByDefault: true
+    hasUrls: true
+    template: _entry.twig
+    uriFormat: 'news/{slug}'
+type: channel
