@@ -1,4 +1,4 @@
-dateModified: 1696452368
+dateModified: 1696452730
 email:
   fromEmail: $SYSTEM_EMAIL
   fromName: $SYSTEM_NAME
@@ -75,6 +75,11 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  navigation:
+    edition: standard
+    enabled: true
+    licenseKey: ZN9BMJK36JLU3VPMIKFZHCNK
+    schemaVersion: 2.0.7
   redactor:
     edition: standard
     enabled: true
